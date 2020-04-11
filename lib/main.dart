@@ -24,6 +24,8 @@ class _BallPageState extends State<BallPage> {
           imageNumber = Random().nextInt(5)+1;
         });
     });
+  }
+
   @override
   Widget build(BuildContext context) {
 
